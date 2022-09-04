@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/02 16:14:15.000.355,=C:\Users\achour\Documents\RAD Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/05/03 10:16:36.000.729,=C:\Users\achour\Documents\RAD Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/10/17 14:32:48.000.040,=C:\Users\achour\Documents\RAD Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/10/17 14:33:48.000.890,=I:\chapitre_delphi\programme_ib_1.1_dbexpress_delphi_xe10\Unit_function_and_procedure.pas</Transaction>
+    <Transaction>2017/10/17 14:34:04.000.565,I:\chapitre_delphi\programme_ib_1.1_dbexpress_delphi_xe10\Unit_function_and_procedure.pas=</Transaction>
+    <Transaction>2017/10/17 14:34:17.000.663,=I:\chapitre_delphi\programme_ib_1.1_dbexpress_delphi_xe2\Unit_function_and_procedure.pas</Transaction>
+    <Transaction>2017/10/17 14:38:04.000.311,C:\Users\achour\Documents\RAD Studio\Projets\Unit1.pas=I:\chapitre_delphi\programme_ib_1.1_dbexpress_delphi_xe2\Unit1.pas</Transaction>
+    <Transaction>2017/10/17 14:38:04.000.311,C:\Users\achour\Documents\RAD Studio\Projets\Unit1.dfm=I:\chapitre_delphi\programme_ib_1.1_dbexpress_delphi_xe2\Unit1.dfm</Transaction>
+    <Transaction>2017/10/17 14:38:08.000.153,C:\Users\achour\Documents\RAD Studio\Projets\Project1.dproj=I:\chapitre_delphi\programme_ib_1.1_dbexpress_delphi_xe2\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

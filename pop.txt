@@ -1,0 +1,1 @@
+update lignes set structure_situation='2'  where structure='7',structure_situation='3'  where structure='8' 

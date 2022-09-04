@@ -1,0 +1,173 @@
+
+#language PascalScript
+Function NombreEnLettres(Valeur : Real; SM : String = '' ; France : Boolean = True ) : string;
+// Conversion d'un réel à 2 décimales en lettre avec symbole monétaire en option
+//  Valeur : nombre à convertir
+//  SM     : symbole monétaire
+//  France : langue française, sinon belge
+Var
+  unite      : array[1..19] of string;
+  dizaineF   : array[2.. 9] of string;
+  dizaineB   : array[2.. 9] of string;
+  coefs      : array[0.. 3] of string;
+ 
+  temp      : String;
+  c, d, u   : Integer;
+  coef      : Integer;
+  i         : Integer;
+  neg       : boolean;
+  n         : Integer ;
+  Decimales : Real ;
+  Centimes  : String ;
+Begin
+  result := '';
+  unite[1]:='un';
+  unite[2]:='deux';
+  unite[3]:='trois';
+  unite[4]:='quatre';
+  unite[5]:='cinq';
+  unite[6]:='six';
+  unite[7]:='sept';
+  unite[8]:='huit';
+  unite[9]:='neuf';
+  unite[10]:='dix';
+  unite[11]:='onze';
+  unite[12]:='douze';
+  unite[13]:='treize';
+  unite[14]:='quatorze';
+  unite[15]:='quinze';
+  unite[16]:='seize';
+  unite[17]:='dix sept';
+  unite[18]:='dix huit';
+  unite[19]:='dix neuf';
+ 
+  dizaineF[2]:='vingt';
+  dizaineF[3]:='trente';
+  dizaineF[4]:='quarante';
+  dizaineF[5]:='cinquante';
+  dizaineF[6]:='soixante';
+  dizaineF[7]:='';
+  dizaineF[8]:='quatre-vingt';
+  dizaineF[9]:='';
+ 
+  dizaineB[2]:='vingt';
+  dizaineB[3]:='trente';
+  dizaineB[4]:='quarante';
+  dizaineB[5]:='cinquante';
+  dizaineB[6]:='soixante';
+  dizaineB[7]:='septante';
+  dizaineB[8]:='octante';
+  dizaineB[9]:='nonante';  
+ 
+  coefs[0]:='cent';
+  coefs[1]:='mille';
+  coefs[2]:='million';
+  coefs[3]:='milliard';
+ 
+   // Cas particulier de zéro
+  If Valeur = 0 then
+  begin
+    result := ' zero';
+    exit;
+  end;
+ 
+  // Mémorisation du signe
+  neg := Valeur < 0;
+  If neg then Valeur := -Valeur;
+ 
+  n         := Trunc(Valeur) ;
+  decimales := Round(Frac(Valeur) * 100) ;   // 2 premières décimales
+  coef      := 0 ;
+  Repeat
+    // Récupération de l'unité du bloc de trois chiffres en cours
+    u:=n mod 10; n:=n div 10;
+    // Récupération de la dizaine du bloc de trois chiffres en cours
+    d:=n mod 10; n:=n div 10;
+ 
+    // Traitement des dizaines
+    temp := '';
+    // Passage sur la dizaine inférieure pour 10 à 19
+    // et pour 70-79 90-99 dans le cas de la France
+    If (d=1) Or ((d in [7,9])And France) then
+    begin
+      Dec(d);
+      Inc(u,10);
+    end;
+    if d > 1 then
+    begin
+      If France Then
+      Begin
+        temp := ' ' + DizaineF[d];
+        // Ajout du cas particulier de 'et' entre la dizaine et 1
+        if (d < 8) and ((u = 1) or (u = 11)) then
+          temp := temp + ' et';
+      End Else
+      Begin
+        temp := ' ' + DizaineB[d];
+        // Ajout du cas particulier de 'et' entre la dizaine et 1
+        if (u = 1) then
+          temp := temp + ' et';
+      End;
+    end;
+    // ajout du texte de l'unité
+    if u > 0 then temp := temp + ' ' + unite[u];
+    // ajout du 's' à Quatre-vingt si rien ne suit
+    If (result = '') and (d = 8) and (u = 0) and France then result := 's';
+    result := temp + result;
+ 
+    // Récupération de la centaine du bloc de trois chiffres en cours
+    c := n mod 10; n := n div 10; {Récupère centaine}
+    If c > 0 then
+    begin
+      temp := '';
+      if c > 1 then temp := ' ' + unite[c] + temp;
+      temp := temp + ' ' + coefs[0];
+      // Traitement du cas particulier du 's' à cent si rien ne suit
+      If (result = '') and (c > 1) then result := 's';
+      result := temp + result;
+    end;
+ 
+    // Traitement du prochain groupe de 3 chiffres
+    if n > 0 then
+    begin
+      Inc(coef);
+      I := n mod 1000;
+      If (i > 1) and (coef > 1) then result := 's' + result;
+      If i > 0 then result := ' ' + coefs[coef] + result;
+      // Traitement du cas particulier 'mille' ( non pas 'un mille' )
+      If (i = 1) and (coef = 1) then Dec(n);
+    end;
+  until n = 0;
+ 
+  SM := Trim(SM) ;
+  If (SM <> '') Then
+    Begin
+      result := Trim(result)+ ' '+ SM;
+      If (Decimales > 0 ) Then
+         Begin
+           Centimes := ' centimes' ;
+           If (Trunc(Decimales) = 1) Then  Centimes := ' centime' ;
+            Result := Result + ' et '+NombreEnLettres(Decimales) + Centimes ;
+         End ;
+    End
+  Else
+    Begin
+      result := Trim(result);
+      If (Decimales > 0 ) Then
+         Begin
+            Result := Result + ' virgule '+NombreEnLettres(Decimales) ;
+         End ;
+    End ;
+ 
+  // Ajout du signe en cas de besoin
+  if neg then result := 'moins ' + result;
+End;
+ 
+procedure frxDBDataset1Montant1OnBeforePrint(Sender: TfrxComponent);
+begin
+enlettre.Text :=NombreEnLettres(<frxDBDataset1."Montant">,'€',true);
+end;
+ 
+begin
+ 
+end.

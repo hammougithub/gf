@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2012/07/17 15:43:40.000.380,=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas</Transaction>
+    <Transaction>2012/07/17 16:13:07.000.392,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.dfm=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_كشف.dfm</Transaction>
+    <Transaction>2012/07/17 16:13:07.000.391,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_كشف.pas</Transaction>
+    <Transaction>2012/07/17 16:19:53.000.039,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_edit_كشف.pas=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_كشف.pas</Transaction>
+    <Transaction>2012/07/17 16:19:53.000.039,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_edit_كشف.dfm=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_كشف.dfm</Transaction>
+    <Transaction>2012/07/17 16:20:57.000.529,=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas</Transaction>
+    <Transaction>2012/07/17 16:22:36.000.787,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_etat_كشف.dfm=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.dfm</Transaction>
+    <Transaction>2012/07/17 16:22:36.000.787,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_etat_كشف.pas=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas</Transaction>
+    <Transaction>2012/10/11 12:26:42.000.989,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_edit_كشف.pas=</Transaction>
+    <Transaction>2012/12/24 11:11:55.000.809,=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas</Transaction>
+    <Transaction>2012/12/24 11:13:30.000.425,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.dfm=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\U_parametres.dfm</Transaction>
+    <Transaction>2012/12/24 11:13:30.000.425,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\U_parametres.pas</Transaction>
+    <Transaction>2013/01/08 12:11:47.000.527,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_etat_k.pas=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_etat_كشف.pas</Transaction>
+    <Transaction>2013/01/08 12:11:47.000.527,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_etat_k.dfm=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_etat_كشف.dfm</Transaction>
+    <Transaction>2013/01/09 15:13:53.000.818,=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas</Transaction>
+    <Transaction>2013/01/09 15:33:08.000.080,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.dfm=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_users.dfm</Transaction>
+    <Transaction>2013/01/09 15:33:08.000.080,J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas=J:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_users.pas</Transaction>
+    <Transaction>2013/04/04 11:18:05.000.912,=H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas</Transaction>
+    <Transaction>2013/04/04 11:24:07.000.216,H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas=H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\U_sql.pas</Transaction>
+    <Transaction>2013/04/04 11:24:07.000.216,H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.dfm=H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\U_sql.dfm</Transaction>
+    <Transaction>2013/11/20 12:16:29.000.935,=H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_c.pas</Transaction>
+    <Transaction>2013/11/20 12:17:15.000.353,H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_c.pas=</Transaction>
+    <Transaction>2013/11/20 12:18:10.000.252,=H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_c.pas</Transaction>
+    <Transaction>2013/11/26 12:00:43.000.513,=H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas</Transaction>
+    <Transaction>2013/11/26 12:01:26.000.144,H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.pas=H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_message.pas</Transaction>
+    <Transaction>2013/11/26 12:01:26.000.144,H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\Unit2.dfm=H:\chapitre_delphi\programme_ib_1.1_delphi_XE2\u_message.dfm</Transaction>
+    <Transaction>2014/06/15 15:09:34.000.027,=G:\chapitre_delphi\programme_ib_1.1_dbexpress_delphi_xe2\u_etat_excel.pas</Transaction>
+  </Transactions>
+</BorlandProject>

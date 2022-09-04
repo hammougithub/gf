@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.7.9" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Par défaut" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44306.5746379398" ReportOptions.Description.Text="" ReportOptions.LastChange="44306.5746379398" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <TfrxDataPage Name="DataPage1" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="QuickRep1" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="MS Sans Serif" Font.Style="0" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" Columns="1" ColumnWidth="190" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0" TitleBeforeHeader="False" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="QRBand1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="114" Left="0" Top="28" Width="0">
+      <TfrxMemoView Name="QRLabel1" AllowVectorExport="True" Left="637" Top="48" Width="150" Height="16" Font.Charset="178" Font.Color="-16777208" Font.Height="-13" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="15" Fill.BackColor="16777215" HAlign="haCenter" ParentFont="False" Text="تفــــاصيـــــل  الالتزامــات"/>
+      <TfrxMemoView Name="QRLabel2" AllowVectorExport="True" Left="84" Top="18" Width="146" Height="14" AutoWidth="True" Frame.Typ="0" Fill.BackColor="16777215" Text="الجمهورية  الجزائرية الديوقراطية الشعبية"/>
+      <TfrxMemoView Name="QRLabel3" AllowVectorExport="True" Left="180" Top="36" Width="50" Height="14" AutoWidth="True" Frame.Typ="0" Fill.BackColor="16777215" Text="وزارة المالية"/>
+      <TfrxMemoView Name="QRLabel4" AllowVectorExport="True" Left="108" Top="54" Width="124" Height="14" AutoWidth="True" Frame.Typ="0" Fill.BackColor="16777215" Text="المديرية الجهوية للخزينة بغردايــــة"/>
+      <TfrxMemoView Name="QRLabel5" AllowVectorExport="True" Left="264" Top="84" Width="105" Height="14" AutoWidth="True" Frame.Typ="0" Fill.BackColor="16777215" Text=" مـيـزانـــــــــية الـدولـــــــــــة"/>
+    </TfrxReportTitle>
+    <TfrxColumnHeader Name="QRBand2" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="30" Left="0" Top="142" Width="0"/>
+    <TfrxMasterData Name="QRBand3" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="30" Left="0" Top="172" Width="0" ColumnWidth="0" ColumnGap="0" RowCount="0"/>
+  </TfrxReportPage>
+</TfrxReport>

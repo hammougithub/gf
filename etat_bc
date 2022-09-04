@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.7.9" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Par défaut" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44339.4125834838" ReportOptions.Description.Text="" ReportOptions.LastChange="44339.4136878588" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <TfrxDataPage Name="DataPage1" Height="1000" Left="0" Top="0" Width="1000"/>
+</TfrxReport>

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{DA2379F0-AFDC-4D96-9D0C-24B4E0FD9B92}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Gf_dbexpress.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="I:\Inventaire_delphi\inventaire_delphi_xe8\invent.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Gf_dbexpress">
+        <MSBuild Projects="Gf_dbexpress.dproj"/>
+    </Target>
+    <Target Name="Gf_dbexpress:Clean">
+        <MSBuild Projects="Gf_dbexpress.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Gf_dbexpress:Make">
+        <MSBuild Projects="Gf_dbexpress.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="invent">
+        <MSBuild Projects="I:\Inventaire_delphi\inventaire_delphi_xe8\invent.dproj"/>
+    </Target>
+    <Target Name="invent:Clean">
+        <MSBuild Projects="I:\Inventaire_delphi\inventaire_delphi_xe8\invent.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="invent:Make">
+        <MSBuild Projects="I:\Inventaire_delphi\inventaire_delphi_xe8\invent.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Gf_dbexpress;invent"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Gf_dbexpress:Clean;invent:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Gf_dbexpress:Make;invent:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

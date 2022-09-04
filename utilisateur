@@ -1,0 +1,19 @@
+//
+oilc
+//
+3050
+// Base de données.... Gf           ---> readln moussa-drt/3050:e:\chapitre_delphi\dB_INTERBASE\GF.fdb
+C:\programme_ib_1.1_dbexpress_delphi_xe8\GF.fdb
+// Role
+use_all_table_gf
+// nom utilisateur  Gf          ---> readln
+gf
+// mot de passe utilisateur Gf  ---> readln
+123
+// Base de données pers         ---> readln pc-salah/3050:e:\pers_delphi\dB_INTERBASE\pers.fdb
+\\oilc\i\chapitre_delphi\access_files\
+// nom utilisateur  pers        ---> readln
+pers
+// mot de passe utilisateur pers ---> readln
+123
+

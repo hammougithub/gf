@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="4.11.17" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Par défaut" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41836,497296875" ReportOptions.Description.Text="" ReportOptions.LastChange="41836,5034794444" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end." PropData="044C65667403B80203546F7003B0000844617461736574730101063420446174615365743D22667278444244617461736574312220446174615365744E616D653D2266727844424461746173657431220001063420446174615365743D22667278444244617461736574322220446174615365744E616D653D2266727844424461746173657432220000095661726961626C65730100055374796C650100">
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="152,4" PaperHeight="152,4" PaperSize="256" LeftMargin="9,906" RightMargin="9,906" TopMargin="9,906" BottomMargin="9,906" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" Height="499,2" Left="0" Top="19,2" Width="501,12032364" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" RowCount="0">
+      <TfrxMemoView Name="frxDBDataset1NOM_AVIS_DE_VIREMENT" Left="67,2" Top="67,2" Width="403,2" Height="19,2" ShowHint="False" DataField="NOM_AVIS_DE_VIREMENT" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;NOM_AVIS_DE_VIREMENT&#34;]"/>
+      <TfrxMemoView Name="frxDBDataset1BENIFICIAIRE" Left="57,6" Top="28,8" Width="38,4" Height="19,2" ShowHint="False" DataField="BENIFICIAIRE" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Text="[frxDBDataset1.&#34;BENIFICIAIRE&#34;]"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

@@ -1,0 +1,35 @@
+grant all on administration to
+grant all on administration_pers to
+grant all on adm_apc_grade_fonction_mission to
+grant all on agent to
+grant all on apc to
+grant all on article to 
+grant all on bareme to
+grant all on bc to
+grant all on bc_ligne to
+grant all on convention to
+grant all on credit to
+grant all on depense_annulees to
+grant all on depenses_mission to
+grant all on depense_economie to
+grant all on engagement to  
+grant all on det_eng to
+grant all on facture to  
+grant all on fonction to
+grant all on fournisseur to
+grant all on grade to
+grant all on lieu to
+grant all on MANDAT to
+grant all on MANDAT_reimpute to
+grant all on lignes to
+grant all on mission to
+grant all on mois to  
+grant all on nature_dep to
+grant all on obs_eng to
+grant all on parametres to
+grant all on parametres_mission to
+grant all on plus_moins to
+grant all on utilisateur to
+grant all on programme to 
+
+

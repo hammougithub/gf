@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.7.9" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Par défaut" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44321.4280220602" ReportOptions.Description.Text="" ReportOptions.LastChange="44322.5024381829" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDataset1" DataSetName="frxDBDataset1"/>
+    <item DataSet="frxDBDataset2" DataSetName="frxDBDataset2"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="431.8" PaperHeight="279.4" PaperSize="256" LeftMargin="0" RightMargin="0" TopMargin="0" BottomMargin="0" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="1122.82245" Left="0" Top="18.89765" Width="1632.001054">
+      <TfrxMemoView Name="QRLabel4" AllowVectorExport="True" Left="1101" Top="29.10235" Width="244.4" Height="22" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="15" Fill.BackColor="16777215" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="تــفـــاصـيــــــل الالـتــزامـــــــــــات"/>
+      <TfrxMemoView Name="QRLabel7" AllowVectorExport="True" Left="197" Top="169.50235" Width="337.6" Height="30.6" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="0" Fill.BackColor="16777215" HAlign="haCenter" ParentFont="False" Text="مـيـزانيــــــــــة الـدولــــــــــــــــــــــــة"/>
+      <TfrxMemoView Name="QRLabel8" AllowVectorExport="True" Left="378" Top="252.30235" Width="119" Height="48.8" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="7" Fill.BackColor="16777215" HAlign="haCenter" ParentFont="False" Text="     تـاشيــــرة      &#13;&#10;المـراقب الـمـــالي"/>
+      <TfrxMemoView Name="QRLabel9" AllowVectorExport="True" Left="378" Top="301.30235" Width="119" Height="48.8" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="15" Fill.BackColor="16777215" HAlign="haRight" ParentFont="False" Text=" رقـــــم &#13;&#10;تـــاريخ "/>
+      <TfrxMemoView Name="QRLabel17" AllowVectorExport="True" Left="224" Top="319.30235" Width="123.6" Height="30.6" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="0" Fill.BackColor="16777215" HAlign="haCenter" ParentFont="False" Text="مـصـلـحـة : م.ج.خ"/>
+      <TfrxMemoView Name="QRLabel16" AllowVectorExport="True" Left="224.4" Top="271.70235" Width="126.8" Height="39.2" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="0" Fill.BackColor="16777215" HAlign="haCenter" ParentFont="False" Text="وزارة   :  110 347"/>
+      <TfrxMemoView Name="QRLabel14" AllowVectorExport="True" Left="49" Top="296.30235" Width="119" Height="29.6" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="3" Fill.BackColor="16777215" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="بــطــاقـــة رقــــم"/>
+      <TfrxMemoView Name="QRLabel15" AllowVectorExport="True" Left="234.4" Top="382.70235" Width="85.6" Height="26.6" Font.Charset="1" Font.Color="-16777208" Font.Height="-17" Font.Name="MS Sans Serif" Font.Style="0" Frame.Typ="0" Fill.BackColor="16777215" HAlign="haRight" ParentFont="False" Text=": مــوضــوع"/>
+      <TfrxShapeView Name="QRShape1_1" AllowVectorExport="True" Left="49" Top="374.30235" Width="444" Height="224" Frame.Typ="0"/>
+      <TfrxTableObject Name="TableObject1" AllowVectorExport="True" Left="854.4" Top="125.10235">
+        <TfrxTableColumn Name="TableColumn2" Width="75.5906" MinWidth="0" MaxWidth="75.5906"/>
+        <TfrxTableColumn Name="TableColumn3" Width="630.257266666667" MinWidth="0" MaxWidth="75.5906"/>
+        <TfrxTableColumn Name="TableColumn5" Width="54.2572666666667" MinWidth="0" MaxWidth="75.5906"/>
+        <TfrxTableRow Name="TableRow8" MinHeight="0" MaxHeight="0" Height="28.8">
+          <TfrxTableCell Name="TableCell28" AllowVectorExport="True" Restrictions="8" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="الـمـبـلــغ"/>
+          <TfrxTableCell Name="TableCell29" AllowVectorExport="True" Restrictions="8" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="13" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="طـبيــــعــــة الالـتـزامــــــــــــــــــــات"/>
+          <TfrxTableCell Name="TableCell30" AllowVectorExport="True" Restrictions="8" Frame.Typ="14" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="ligne1" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="m1" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="d1" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="l1" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow9" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="m2" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="d2" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="l2" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow25" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell79" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell80" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell81" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow1" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell2" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell3" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell5" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow24" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell76" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell77" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell78" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow23" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell73" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell74" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell75" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow22" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell70" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell71" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell72" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow21" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell67" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell68" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell69" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow20" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell64" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell65" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell66" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow19" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell61" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell62" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell63" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow18" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell58" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell59" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell60" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow17" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell55" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell56" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell57" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow16" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell52" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell53" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell54" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow15" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell49" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell50" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell51" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow14" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell46" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell47" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell48" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow13" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell43" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell44" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell45" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow12" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell40" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell41" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell42" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow11" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell37" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell38" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell39" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow10" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell34" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell35" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell36" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow7" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell24" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell26" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell27" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow6" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell16" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell19" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell21" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow2" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell7" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell8" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell10" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow3" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell12" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell13" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell15" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow4" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell17" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell18" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell20" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+        <TfrxTableRow Name="TableRow5" MinHeight="0" MaxHeight="0" Height="26.88">
+          <TfrxTableCell Name="TableCell22" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell23" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+          <TfrxTableCell Name="TableCell25" AllowVectorExport="True" Restrictions="8" Frame.Typ="15" Text=""/>
+        </TfrxTableRow>
+      </TfrxTableObject>
+      <TfrxMemoView Name="frxDBDataset1GESTION" IndexTag="1" AllowVectorExport="True" Left="48" Top="256.90235" Width="115.2" Height="38.4" DataField="GESTION" DataSet="frxDBDataset1" DataSetName="frxDBDataset1" Frame.Typ="0" VAlign="vaCenter" Text="[frxDBDataset1.&#34;GESTION&#34;]"/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+</TfrxReport>

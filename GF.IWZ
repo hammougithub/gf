@@ -1,0 +1,365 @@
+
+[InstallShield Wizard]
+iDate=1
+iTime=1
+Flag=0
+ISX.EXE Size=679936
+ISX.EXE Date=11:21:52  8/4/1999
+ISX.EXE Ver=2.1.2.62
+SETUP.EXE Size=45312
+SETUP.EXE Date=9:12:24  23/3/1999
+SETUP.EXE Ver=3.0.111.0
+SETUP.INS Size=81342
+SETUP.INS Date=11:26:40  8/4/1999
+SETUP.INS Ver=Non disponible
+_INST16.EX_ Size=81342
+_INST16.EX_ Date=11:26:40  8/4/1999
+_INST16.EX_ Ver=Non disponible
+_INST32I.EX_ Size=294079
+_INST32I.EX_ Date=9:12:22  23/3/1999
+_INST32I.EX_ Ver=Non disponible
+ISDEPEND.INI Size=7062
+ISDEPEND.INI Date=15:40:48  27/8/1999
+ISDEPEND.INI Ver=Non disponible
+SWDEPEND.INI Size=9873
+SWDEPEND.INI Date=9:55:22  24/8/1999
+SWDEPEND.INI Ver=Non disponible
+ICOMP.EXE Size=119808
+ICOMP.EXE Date=9:12:24  23/3/1999
+ICOMP.EXE Ver=3.00.062
+SPLIT.EXE Size=90624
+SPLIT.EXE Date=9:12:24  23/3/1999
+SPLIT.EXE Ver=3.00.060
+PACKLIST.EXE Size=87552
+PACKLIST.EXE Date=9:12:24  23/3/1999
+PACKLIST.EXE Ver=3.00.060
+Version=2.12
+DevTool=Delphi 5
+Platform=Win32
+DisksBuilt=1
+DisksDir=GF\650MB\
+TabsVisit=11111111100000011
+LangNum=0
+LangDir=
+
+[VisualDesign]
+AppName=GESTION DU BUDGET
+AppExe=[Fichiers programme]\GF.EXE
+AppExeFile=
+Version=1.0
+Company=DRT
+Title=C:\Program Files\InstallShield\Express pour Delphi 5\SETUP1.BMP
+TitleType=0
+BackgrndBmp=C:\Program Files\InstallShield\Express pour Delphi 5\SETUP1.BMP
+BackgrndAlign=2
+Backgrnd=1
+BackgrndColor=10
+Uninstall=1
+UninstallChecked=1
+Silent=1
+SmsMode=0
+
+[Types]
+Types=1
+Type1Components=1
+Type1Name=Complète
+Type1ComponentList=1 
+
+[Components]
+Components=1
+Component1Groups=5
+Component1Name=Fichiers application
+Component1Description=Fichiers nécessaires pour exécuter l’application
+Component1GroupList=1 2 3 4 5 
+
+[Groups]
+Groups=5
+Group1Size=1492992
+Group1Files=1
+Group1Name=Fichiers programme
+Group1Dir=<INSTALLDIR>
+Group1Update=0
+Group1TargetOS=-1
+Group1File1=C:\chapitre_delphi\programmes\GF.EXE
+Group2Size=701027
+Group2Files=50
+Group2Name=base_de_donnees
+Group2Dir=<INSTALLDIR>\bd
+Group2Update=0
+Group2TargetOS=-1
+Group2File1=C:\chapitre_delphi\base_de_donnees\administration.db
+Group2File2=C:\chapitre_delphi\base_de_donnees\administration.PX
+Group2File3=C:\chapitre_delphi\base_de_donnees\adminstration.DB
+Group2File4=C:\chapitre_delphi\base_de_donnees\adminstration.PX
+Group2File5=C:\chapitre_delphi\base_de_donnees\ARTICLE.DB
+Group2File6=C:\chapitre_delphi\base_de_donnees\ARTICLE.PX
+Group2File7=C:\chapitre_delphi\base_de_donnees\ARTICLE.XG0
+Group2File8=C:\chapitre_delphi\base_de_donnees\ARTICLE.YG0
+Group2File9=C:\chapitre_delphi\base_de_donnees\CREDIT.DB
+Group2File10=C:\chapitre_delphi\base_de_donnees\CREDIT.VAL
+Group2File11=C:\chapitre_delphi\base_de_donnees\CREDIT.XG0
+Group2File12=C:\chapitre_delphi\base_de_donnees\CREDIT.YG0
+Group2File13=C:\chapitre_delphi\base_de_donnees\CREDIT1.DB
+Group2File14=C:\chapitre_delphi\base_de_donnees\CREDIT1.VAL
+Group2File15=C:\chapitre_delphi\base_de_donnees\CREDIT1.XG0
+Group2File16=C:\chapitre_delphi\base_de_donnees\CREDIT1.YG0
+Group2File17=C:\chapitre_delphi\base_de_donnees\DD.DBF
+Group2File18=C:\chapitre_delphi\base_de_donnees\DEPense_economie.db
+Group2File19=C:\chapitre_delphi\base_de_donnees\DEPense_economie.PX
+Group2File20=C:\chapitre_delphi\base_de_donnees\DEPense_economie.VAL
+Group2File21=C:\chapitre_delphi\base_de_donnees\det_eng.DB
+Group2File22=C:\chapitre_delphi\base_de_donnees\det_eng.PX
+Group2File23=C:\chapitre_delphi\base_de_donnees\det_eng.VAL
+Group2File24=C:\chapitre_delphi\base_de_donnees\engagement.DB
+Group2File25=C:\chapitre_delphi\base_de_donnees\engagement.PX
+Group2File26=C:\chapitre_delphi\base_de_donnees\engagement.VAL
+Group2File27=C:\chapitre_delphi\base_de_donnees\fournisseur.DB
+Group2File28=C:\chapitre_delphi\base_de_donnees\fournisseur.PX
+Group2File29=C:\chapitre_delphi\base_de_donnees\fournisseur.XG0
+Group2File30=C:\chapitre_delphi\base_de_donnees\fournisseur.YG0
+Group2File31=C:\chapitre_delphi\base_de_donnees\LIGNES.DB
+Group2File32=C:\chapitre_delphi\base_de_donnees\LIGNES.FAM
+Group2File33=C:\chapitre_delphi\base_de_donnees\LIGNES.PX
+Group2File34=C:\chapitre_delphi\base_de_donnees\LIGNES.TV
+Group2File35=C:\chapitre_delphi\base_de_donnees\LIGNES.VAL
+Group2File36=C:\chapitre_delphi\base_de_donnees\MANDAT.DB
+Group2File37=C:\chapitre_delphi\base_de_donnees\MANDAT.PX
+Group2File38=C:\chapitre_delphi\base_de_donnees\MANDAT.VAL
+Group2File39=C:\chapitre_delphi\base_de_donnees\MOIS.DB
+Group2File40=C:\chapitre_delphi\base_de_donnees\MOIS1.DB
+Group2File41=C:\chapitre_delphi\base_de_donnees\nature_dep.db
+Group2File42=C:\chapitre_delphi\base_de_donnees\nature_dep.PX
+Group2File43=C:\chapitre_delphi\base_de_donnees\OBS_ENG.DB
+Group2File44=C:\chapitre_delphi\base_de_donnees\OBS_ENG.PX
+Group2File45=C:\chapitre_delphi\base_de_donnees\PARADOX.LC1
+Group2File46=C:\chapitre_delphi\base_de_donnees\PARADOX.LCK
+Group2File47=C:\chapitre_delphi\base_de_donnees\PDOXUSRS.LC1
+Group2File48=C:\chapitre_delphi\base_de_donnees\PDOXUSRS.LCK
+Group2File49=C:\chapitre_delphi\base_de_donnees\PLUS_moins.db
+Group2File50=C:\chapitre_delphi\base_de_donnees\PLUS_moins.PX
+Group3Size=4012032
+Group3Files=10
+Group3Auto=51
+Group3ID=38651
+Group3Name=Fichiers système - WinSysDir
+Group3Dir=<WINSYSDIR>
+Group3Update=-1
+Group3TargetOS=-1
+Group3File1=C:\WINDOWS\SYSTEM\QRPT50.BPL
+Group3File2=C:\WINDOWS\SYSTEM\QRPT50.FR
+Group3File3=C:\WINDOWS\SYSTEM\VCLX50.BPL
+Group3File4=C:\WINDOWS\SYSTEM\VCL50.BPL
+Group3File5=C:\WINDOWS\SYSTEM\VCL50.FR
+Group3File6=C:\WINDOWS\SYSTEM\VCLDB50.BPL
+Group3File7=C:\WINDOWS\SYSTEM\VCLDB50.FR
+Group3File8=C:\WINDOWS\SYSTEM\BDEADMIN.CPL
+Group3File8Auto=58
+Group3File9=C:\WINDOWS\SYSTEM\VCLBDE50.BPL
+Group3File9Auto=58
+Group3File10=C:\WINDOWS\SYSTEM\VCLBDE50.FR
+Group3File10Auto=58
+Group4Size=7178628
+Group4Files=25
+Group4Auto=101
+Group4ID=38701
+Group4Name=Fichiers BDE/IDAPI
+Group4Dir=<INSTALLDIR>\bdeidapi
+Group4Update=-1
+Group4TargetOS=-1
+Group4File1=C:\Program Files\Common Files\Borland Shared\BDE\IDAPI32.DLL
+Group4File1Auto=101
+Group4File2=C:\Program Files\Common Files\Borland Shared\BDE\IDR2000C.DLL
+Group4File2Auto=101
+Group4File3=C:\Program Files\Common Files\Borland Shared\BDE\BLW32.DLL
+Group4File3Auto=101
+Group4File4=C:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.EXE
+Group4File4Auto=101
+Group4File5=C:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.HLP
+Group4File5Auto=101
+Group4File6=C:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.CNT
+Group4File6Auto=101
+Group4File7=C:\Program Files\Common Files\Borland Shared\BDE\BDEADMIN.TOC
+Group4File7Auto=101
+Group4File8=C:\Program Files\Common Files\Borland Shared\BDE\IDDR32.DLL
+Group4File8Auto=101
+Group4File9=C:\Program Files\Common Files\Borland Shared\BDE\IDPDX32.DLL
+Group4File9Auto=101
+Group4File10=C:\Program Files\Common Files\Borland Shared\BDE\IDSQL32.DLL
+Group4File10Auto=101
+Group4File11=C:\Program Files\Common Files\Borland Shared\BDE\IDBAT32.DLL
+Group4File11Auto=101
+Group4File12=C:\Program Files\Common Files\Borland Shared\BDE\IDQBE32.DLL
+Group4File12Auto=101
+Group4File13=C:\Program Files\Common Files\Borland Shared\BDE\IDDBAS32.DLL
+Group4File13Auto=101
+Group4File14=C:\Program Files\Common Files\Borland Shared\BDE\IDASCI32.DLL
+Group4File14Auto=101
+Group4File15=C:\Program Files\Common Files\Borland Shared\BDE\IDODBC32.DLL
+Group4File15Auto=101
+Group4File16=C:\Program Files\Common Files\Borland Shared\BDE\IDDA3532.DLL
+Group4File16Auto=101
+Group4File17=C:\PROGRAM FILES\INSTALLSHIELD\EXPRESS POUR DELPHI 5\redist\IDAPINST.DLL
+Group4File17Auto=101
+Group4File18=C:\Program Files\Common Files\Borland Shared\BDE\BANTAM.DLL
+Group4File18Auto=101
+Group4File19=C:\Program Files\Common Files\Borland Shared\BDE\USA.BTL
+Group4File19Auto=101
+Group4File20=C:\Program Files\Common Files\Borland Shared\BDE\EUROPE.BTL
+Group4File20Auto=101
+Group4File21=C:\Program Files\Common Files\Borland Shared\BDE\CEEUROPE.BTL
+Group4File21Auto=101
+Group4File22=C:\Program Files\Common Files\Borland Shared\BDE\JAPAN.BTL
+Group4File22Auto=101
+Group4File23=C:\Program Files\Common Files\Borland Shared\BDE\OTHER.BTL
+Group4File23Auto=101
+Group4File24=C:\Program Files\Common Files\Borland Shared\BDE\FAREAST.BTL
+Group4File24Auto=101
+Group4File25=C:\Program Files\Common Files\Borland Shared\BDE\CHARSET.CVB
+Group4File25Auto=101
+Group5Size=6080
+Group5Files=1
+Group5Auto=98
+Group5ID=38698
+Group5Name=Fichier CNF BDE/IDAPI
+Group5Dir=<INSTALLDIR>\cnfbdeidapi
+Group5Update=-1
+Group5TargetOS=-1
+Group5File1=C:\PROGRAM FILES\INSTALLSHIELD\EXPRESS POUR DELPHI 5\redist\IDAPI.CNF
+Group5File1Auto=98
+
+[Sequence]
+DestinationLocationDir=<ProgramFilesDir>\gf
+DatabaseLocationDir=<INSTALLDIR>\data
+SelectProgramFolderName=gf
+SplashScreen=1
+SplashScreenBmp=C:\Program Files\InstallShield\Express pour Delphi 5\SETUP1.BMP
+WelcomeMessage=1
+WelcomeMessageFile=
+LicenseAgreement=1
+LicenseAgreementFile=C:\Program Files\InstallShield\Express pour Delphi 5\licensegf.txt
+ReadMeFileBrowser=1
+ReadMeFileBrowserFile=C:\PROGRAM FILES\INSTALLSHIELD\EXPRESS POUR DELPHI 5\Redist\readme.txt
+UserInformation=1
+DestinationLocation=1
+DatabaseLocation=1
+SelectProgramFolder=1
+BeginFileTransfer=1
+ProgressBar=1
+Billboards=1
+BillboardsFile=C:\PROGRA~1\INSTAL~1\EXPRES~1\Redist\
+SetupComplete=1
+SetupCompleteExec=
+SetupCompleteExecParam=
+SetupCompleteExecReadme=
+
+[RegEntries]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1Val1Type=0
+Reg1Val1Name=(Default)
+Reg1Val1Data=(value not set)
+Reg1Vals=1
+Reg2Path=HKEY_CURRENT_USER
+Reg2Val1Type=0
+Reg2Val1Name=(Default)
+Reg2Val1Data=(value not set)
+Reg2Vals=1
+Reg3Path=HKEY_LOCAL_MACHINE
+Reg3Val1Type=0
+Reg3Val1Name=(Default)
+Reg3Val1Data=(value not set)
+Reg3Vals=1
+Reg4Path=HKEY_USERS
+Reg4Val1Type=0
+Reg4Val1Name=(Default)
+Reg4Val1Data=(value not set)
+Reg4Vals=1
+Reg5Path=HKEY_CURRENT_CONFIG
+Reg5Val1Type=0
+Reg5Val1Name=(Default)
+Reg5Val1Data=(value not set)
+Reg5Vals=1
+Reg6Path=HKEY_DYN_DATA
+Reg6Val1Type=0
+Reg6Val1Name=(Default)
+Reg6Val1Data=(value not set)
+Reg6Vals=1
+Regs=6
+
+[Registry]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1ValName=(Default)
+Reg1ValType=0
+Reg1ValData=(value not set)
+Reg2Path=HKEY_CURRENT_USER
+Reg2ValName=(Default)
+Reg2ValType=0
+Reg2ValData=(value not set)
+Reg3Path=HKEY_LOCAL_MACHINE
+Reg3ValName=(Default)
+Reg3ValType=0
+Reg3ValData=(value not set)
+Reg4Path=HKEY_USERS
+Reg4ValName=(Default)
+Reg4ValType=0
+Reg4ValData=(value not set)
+Reg5Path=HKEY_CURRENT_CONFIG
+Reg5ValName=(Default)
+Reg5ValType=0
+Reg5ValData=(value not set)
+Reg6Path=HKEY_DYN_DATA
+Reg6ValName=(Default)
+Reg6ValType=0
+Reg6ValData=(value not set)
+Regs=6
+
+[Icons]
+Icons=1
+Icon1Param=
+Icon1Cmd=[Fichiers programme]\GF.EXE
+Icon1Description=GF
+Icon1WorkingDir=[Fichiers programme]
+Icon1IconFile=
+Icon1RealFile=C:\chapitre_delphi\programmes\GF.EXE
+Icon1WhichIcon=0
+Icon1KeyVirtual=0
+Icon1KeyFlags=0
+Icon1StartMenu=0
+Icon1Window=0
+
+[IDAPI Alias]
+Alias1=gfw
+Alias1Path=<installdir>\bd
+Alias1Type=PARADOX
+Aliases=1
+SaveCfg=1
+
+[IDAPI Alias gfw]
+
+
+
+
+
+
+
+
+[Autoexec]
+PathDir=
+ShareLocks=
+ShareFiles=
+Command=
+
+[CopyToFloppy]
+DriveOption=Chemin
+DestinationPath=E:\inst_gf\
+DestinationPathOneFile=
+Password=
+
+[ISObjectIDs]
+nTotal=4
+ID1=101
+ID2=50
+ID3=51
+ID4=58
+
+[Uninstall]
+UserUninstall=0
